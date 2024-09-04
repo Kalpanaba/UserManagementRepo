@@ -1,4 +1,6 @@
 Please follow the below steps after cloning the project from github
+
+
 1.Naviagate to Dashboard folder and install the dependencies using npm install
 
 

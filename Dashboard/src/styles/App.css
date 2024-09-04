@@ -1,0 +1,107 @@
+
+.App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 100%;
+  }
+  
+ 
+  .button-container {
+    display: flex;
+    justify-content: flex-end !important;
+    padding: 10px 20px; 
+    margin-bottom: 20px; 
+  }
+  
+ 
+  .add-user-button {
+    background-color: orange;
+    color: rgb(24, 22, 22);
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+
+  .add-user-button:hover {
+    background-color: darkorange;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    
+    .App-header {
+      padding: 15px;
+    }
+  
+        .button-container {
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+
+    .add-user-button {
+      padding: 12px 20px;
+      font-size: 16px;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    
+    .App-header {
+      text-align: left;
+      padding: 10px;
+    }
+  
+    
+    .button-container {
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  
+  
+    .add-user-button {
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+    .pagination {
+        display: flex;
+        justify-content: flex-end; 
+        margin-top: 1rem;
+        width: 100%; 
+        padding-right: 1rem; 
+      }
+      
+      .pagination button {
+        padding: 0.5rem 1rem;
+        border: 1px solid #007bff;
+        border-radius: 4px;
+        background-color: white;
+        color: #007bff;
+        margin: 0 0.25rem;
+        cursor: pointer;
+      }
+      
+      .pagination button.active {
+        background-color: #007bff;
+        color: white;
+      }
+      
+      .pagination button:disabled {
+        cursor: not-allowed;
+        opacity: 0.5;
+      }
+      
+      .loading {
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: #007bff;
+      }
+      
+  }
+  
